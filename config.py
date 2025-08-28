@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("22528639"))
+API_HASH = getenv("43df9dcf764afd03a1fd1dc3cec68bbd")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8414244584:AAGp4uwbjMysIfwuncwmuh0IhGo_Bdykvs4")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://rajkumaralfa1255:rajkumaralfa1255@teamraj.utdda9h.mongodb.net/?retryWrites=true&w=majority&appName=Teamraj", None)
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## E.G https://yt.okflix.
@@ -25,10 +25,10 @@ COOKIES_URL=getenv("COOKIES_URL" , "https://gist.githubusercontent.com/sparrow96
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID"))
+LOGGER_ID = int(getenv("-1002327381319"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID"))
+OWNER_ID = int(getenv("7524032836"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -45,8 +45,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/amigr8")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/randomlychats")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/bestshayri_raj")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/RAJCOMMITMENTBOT")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -75,11 +75,11 @@ CACHE_SLEEP = int(getenv("CACHE_SLEEP" , "3600"))   #60*60
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING1 = getenv("BQE1hZwAEgJW9nWzMUZNShRJZDc63EWXH9w0FSIjX0Ti1l0XxH4Jjmhciiyg9Dxid2RjozapTqEHYuSQMOwbFJMa6wxCVymAMPSuHYvgskevgOMK3CcP3DGuls28gIjeN6XR9LlPHOWjfQwF3gSs8Kg3EtzLxuwsmG2uf9OvR2PvP9wIavhya6JvxJZeMpcZekYxziuaHFcvOsiWlbrgPcPCBg8vzqpgU7hoxCqgkmFqXEZETa81ZiFFOEokVd6FONPvZ1a3j8y5HDL4nkrKUfVbPEjj6qFRgp690GHTDqd08-46jEkS9e176GRqm5vBH9Ba6_ohlx6pbS56XaA-AOMw5eRSRAAAAAFpYTzQAA", None)
+STRING2 = getenv("BQE1hZwAEgJW9nWzMUZNShRJZDc63EWXH9w0FSIjX0Ti1l0XxH4Jjmhciiyg9Dxid2RjozapTqEHYuSQMOwbFJMa6wxCVymAMPSuHYvgskevgOMK3CcP3DGuls28gIjeN6XR9LlPHOWjfQwF3gSs8Kg3EtzLxuwsmG2uf9OvR2PvP9wIavhya6JvxJZeMpcZekYxziuaHFcvOsiWlbrgPcPCBg8vzqpgU7hoxCqgkmFqXEZETa81ZiFFOEokVd6FONPvZ1a3j8y5HDL4nkrKUfVbPEjj6qFRgp690GHTDqd08-46jEkS9e176GRqm5vBH9Ba6_ohlx6pbS56XaA-AOMw5eRSRAAAAAFpYTzQAA", None)
+STRING3 = getenv("BQE1hZwAEgJW9nWzMUZNShRJZDc63EWXH9w0FSIjX0Ti1l0XxH4Jjmhciiyg9Dxid2RjozapTqEHYuSQMOwbFJMa6wxCVymAMPSuHYvgskevgOMK3CcP3DGuls28gIjeN6XR9LlPHOWjfQwF3gSs8Kg3EtzLxuwsmG2uf9OvR2PvP9wIavhya6JvxJZeMpcZekYxziuaHFcvOsiWlbrgPcPCBg8vzqpgU7hoxCqgkmFqXEZETa81ZiFFOEokVd6FONPvZ1a3j8y5HDL4nkrKUfVbPEjj6qFRgp690GHTDqd08-46jEkS9e176GRqm5vBH9Ba6_ohlx6pbS56XaA-AOMw5eRSRAAAAAFpYTzQAA", None)
+STRING4 = getenv("SBQE1hZwAEgJW9nWzMUZNShRJZDc63EWXH9w0FSIjX0Ti1l0XxH4Jjmhciiyg9Dxid2RjozapTqEHYuSQMOwbFJMa6wxCVymAMPSuHYvgskevgOMK3CcP3DGuls28gIjeN6XR9LlPHOWjfQwF3gSs8Kg3EtzLxuwsmG2uf9OvR2PvP9wIavhya6JvxJZeMpcZekYxziuaHFcvOsiWlbrgPcPCBg8vzqpgU7hoxCqgkmFqXEZETa81ZiFFOEokVd6FONPvZ1a3j8y5HDL4nkrKUfVbPEjj6qFRgp690GHTDqd08-46jEkS9e176GRqm5vBH9Ba6_ohlx6pbS56XaA-AOMw5eRSRAAAAAFpYTzQAA", None)
+STRING5 = getenv("BQE1hZwAEgJW9nWzMUZNShRJZDc63EWXH9w0FSIjX0Ti1l0XxH4Jjmhciiyg9Dxid2RjozapTqEHYuSQMOwbFJMa6wxCVymAMPSuHYvgskevgOMK3CcP3DGuls28gIjeN6XR9LlPHOWjfQwF3gSs8Kg3EtzLxuwsmG2uf9OvR2PvP9wIavhya6JvxJZeMpcZekYxziuaHFcvOsiWlbrgPcPCBg8vzqpgU7hoxCqgkmFqXEZETa81ZiFFOEokVd6FONPvZ1a3j8y5HDL4nkrKUfVbPEjj6qFRgp690GHTDqd08-46jEkS9e176GRqm5vBH9Ba6_ohlx6pbS56XaA-AOMw5eRSRAAAAAFpYTzQAA", None)
 
 
 BANNED_USERS = filters.user()
